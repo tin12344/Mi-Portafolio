@@ -1,0 +1,151 @@
+img {
+  width: 100px;
+  height: 100px;;
+  display: block;
+}
+
+.user-prompts-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.user-prompts-wrapper {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.user-prompts-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.user-prompts-form {
+  margin-top: 20px;
+}
+
+.user-prompts-form-group {
+  margin-bottom: 15px;
+}
+
+.user-prompts-input,
+.user-prompts-textarea,
+.user-prompts-select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+}
+
+.user-prompts-button {
+  background-color: #4caf50;
+  padding-bottom: 50px;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.user-prompts-button-Send {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.user-prompts-button:hover {
+  background-color: #45a049;
+}
+
+.user-prompts-button-Send:hover {
+  background-color: #45a049;
+}
+
+
+.tag-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  background-color: #eaeaea;
+  padding: 7px 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-top: 8px;
+}
+
+.tag-remove {
+  margin-left: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #888;
+}
+
+.tag-remove:hover {
+  color: #f00;
+}
+
+.input-container {
+  margin-top: 10px;
+}
+
+.input-container input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .user-prompts-wrapper {
+    padding: 10px;
+  }
+
+  .user-prompts-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .user-prompts-input,
+  .user-prompts-textarea,
+  .user-prompts-select {
+    padding: 8px;
+  }
+
+  .user-prompts-button {
+    padding: 8px 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .user-prompts-wrapper {
+    padding: 5px;
+  }
+
+  .user-prompts-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .user-prompts-input,
+  .user-prompts-textarea,
+  .user-prompts-select {
+    padding: 6px;
+  }
+
+  .user-prompts-button {
+    padding: 6px 12px;
+  }
+}

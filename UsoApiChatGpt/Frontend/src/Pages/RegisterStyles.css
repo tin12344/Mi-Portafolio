@@ -1,0 +1,163 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.form-container {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-container form {
+  transition: transform 0.6s ease-in-out;
+}
+
+.form-container.register-form {
+  transform: translateX(400px);
+}
+
+.form-container.login-form {
+  transform: translateX(0);
+}
+
+.form-container.register-form .login-form {
+  transform: translateX(-400px);
+}
+
+.form-container.register-form h2 {
+  margin-bottom: 30px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="password"],
+.form-container input[type="email"],
+.form-container input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #45a049;
+}
+
+.form-container .toggle-form {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 12px;
+  text-decoration: underline;
+  color: #666;
+  cursor: pointer;
+}
+
+.form-container .register-form .login-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.form-container .register-form .login-link a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .form-container {
+    max-width: 300px;
+  }
+  
+  .form-container h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .form-container input[type="text"],
+  .form-container input[type="password"],
+  .form-container input[type="email"] {
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .form-container button {
+    padding: 8px;
+  }
+  
+  .form-container .toggle-form {
+    top: 5px;
+    right: 5px;
+    font-size: 10px;
+  }
+  
+  .form-container .register-form h2 {
+    margin-bottom: 25px;
+  }
+  
+  .form-container .register-form .login-link {
+    margin-top: 8px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .form-container {
+    max-width: 250px;
+  }
+  
+  .form-container h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .form-container input[type="text"],
+  .form-container input[type="password"],
+  .form-container input[type="email"] {
+    padding: 6px;
+    margin-bottom: 8px;
+  }
+  
+  .form-container button {
+    padding: 6px;
+  }
+  
+  .form-container .toggle-form {
+    top: 3px;
+    right: 3px;
+    font-size: 8px;
+  }
+  
+  .form-container .register-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-container .register-form .login-link {
+    margin-top: 6px;
+  }
+}

@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .verification-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .verification-message {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .verification-container a {
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  .verification-container a:hover {
+    color: #0056b3;
+  }
+  
