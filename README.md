@@ -1,10 +1,10 @@
-# Mi-Portafolio
+# My Portfolio
 
 
-## UsoApiChatGpt
+## ApiChatGpt
 
-Dentro de la carpeta UsoApiChatGpt se encuentra un proyecto universitario que tenia como fin implementar el uso del API de chatgpt para poder realizar prompts de imagenes, consultas cortas y consultas largas. El proyecto se divide en 3 partes, el frontend que fue desarrollado en React y el Backend y el uso de GrahpQL que se impletaron por medio de nodejs.
+The objective of this project was to use the API of chat gpt, in this way we can create our own chat gtp with some more functions like generating images, receiving larger promps. This project was made with React.js and the use of GraphQl that was implemented by Nodejs.
 
 ## SocialHub
 
-Dentro de la carpeta SocialHub se podra encontrar otro proyecto universitario el cual tenia como objetivo el de utilizar las APIS de redes sociales para poder realizar publicaciones, en este caso proyecto se utilizaron las APIS de LinkedIn, Reddit y de Twitter que en la actualidad es X. Como mencione anteriormente el objetivo es realizar publicaciones ya sea de manera inmedita en tiempo o si se requiere esta se puede seleccionar una hora en especifico para poder enviar la publicacion.
+This project had the objective to use the APIs of some social medias, in this way we can create post and publish at the moment or we can program the post for an especific hour and day. The APIs were of LinkedIn, Reddit and Twitter now known like X. The FrontEnd was made with React.js and the BackEnd was made with Laravel.
