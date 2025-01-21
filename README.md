@@ -12,4 +12,8 @@ This project had the objective to use the APIs of some social medias, in this wa
 
 ## UnitTest
 
-This project had the objective to create unit test, the project was created on Phyton.
+This project had the objective to create unit test of a basic program to know how you can implement unittest on an application, the project was created on Phyton.
+
+## Data Science
+
+
