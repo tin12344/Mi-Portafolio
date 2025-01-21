@@ -20,4 +20,4 @@ In the data science carpet are my practice works that I have worked through the 
 
 ## DepFinder
 
-For the app DepFinder it’s a web and application with the objective to publish your apartment, house or room to other people and this way they can rent it, the application has maps to search apartments near the location, can use filters to make easier the search, has favorite section where the user can add all the publications that is interested on. The url to visit the page is https://depfinder.greencodecr.com/home .
+For the app DepFinder it’s a web and application with the objective to publish your apartment, house or room to other people and this way they can rent it, the application has maps to search apartments near the location, can use filters to make easier the search, has favorite section where the user can add all the publications that is interested on. The backend was develop with PHP Laravel and the frontend with Flutter.  The url to visit the page is https://depfinder.greencodecr.com/home .
