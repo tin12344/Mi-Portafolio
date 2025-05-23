@@ -16,8 +16,12 @@ This project had the objective to create unit test of a basic program to know ho
 
 ## Data Science
 
-In the data science carpet are my practice works that I have worked through the Data Science Program, here we learned about some classification algorithms such as random forest, also some ways to treat outliers or missing values, using techniques like one hot encoding, temporal series, investigate linear regression to use supervised models and no supervised models like DBSCAN that the objective was known how many clusters where the ideal for the dataset.
+In the data science folder are my practice works that I have worked through the Data Science Program, here we learned about some classification algorithms such as random forest, also some ways to treat outliers or missing values, using techniques like one hot encoding, temporal series, investigate linear regression to use supervised models and no supervised models like DBSCAN that the objective was known how many clusters where the ideal for the dataset.
 
 ## DepFinder
 
 For the app DepFinder it’s a web and application with the objective to publish your apartment, house or room to other people and this way they can rent it, the application has maps to search apartments near the location, can use filters to make easier the search, has favorite section where the user can add all the publications that is interested on. The backend was develop with PHP Laravel and the frontend with Flutter.  The url to visit the page is https://depfinder.greencodecr.com/home .
+
+## Big Data
+
+For the folder of Big Data folder are my works that are related to big date, that I have worked through the Data Science Program. I learned how to use pyspark to understand how does map reduce works, also running unit test to see the funcionality of the functions that were used on the work, also to treat big quantity of data and to relate 2 datasets to have a richer dataset, also I had to save the data on a postgreSQL database to be consumed later on.
