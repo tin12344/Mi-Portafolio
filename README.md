@@ -25,3 +25,7 @@ For the app DepFinder it’s a web and application with the objective to publish
 ## Big Data
 
 For the folder of Big Data folder are my works that are related to big date, that I have worked through the Data Science Program. I learned how to use pyspark to understand how does map reduce works, also running unit test to see the funcionality of the functions that were used on the work, also to treat big quantity of data and to relate 2 datasets to have a richer dataset, also I had to save the data on a postgreSQL database to be consumed later on.
+
+## Log
+
+For the log folder, this is a small practice using pyspark for analyzing logs, doing different types of analysis like the perfomance of the end point response and the traffic, also the security, looking fo ddos attacks, error codes and if there were any ip anomalous behavior.
