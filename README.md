@@ -29,3 +29,10 @@ For the folder of Big Data folder are my works that are related to big date, tha
 ## Log
 
 For the log folder, this is a small practice using pyspark for analyzing logs, doing different types of analysis like the perfomance of the end point response and the traffic, also the security, looking fo ddos attacks, error codes and if there were any ip anomalous behavior.
+
+## Tableau
+
+For this section I will share some links that contain some dashaboards and analysis that I create with academical porpuse:
+- https://public.tableau.com/views/ProyectoDashboard_17539385656930/ConjuntodeDashboards?:language=es-ES&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+- https://public.tableau.com/views/quiz4AgustinVargas/Dashboard1?:language=es-ES&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+- https://public.tableau.com/views/Tarea3AgustinVargasQuesada/AnalisisdeVacunas?:language=es-ES&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
