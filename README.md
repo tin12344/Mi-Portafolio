@@ -36,3 +36,15 @@ For this section I will share some links that contain some dashaboards and analy
 - https://public.tableau.com/views/ProyectoDashboard_17539385656930/ConjuntodeDashboards?:language=es-ES&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 - https://public.tableau.com/views/quiz4AgustinVargas/Dashboard1?:language=es-ES&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 - https://public.tableau.com/views/Tarea3AgustinVargasQuesada/AnalisisdeVacunas?:language=es-ES&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
+## Virtual Gallery
+
+This is a small project of unity, its purpose was to start in the world of unity, it was simple, a gallery with a player that can see different paintings and its description.
+
+<img width="903" height="508" alt="image" src="https://github.com/user-attachments/assets/2eb519c8-47c1-4815-80ef-4d41ecc7215d" />
+
+<img width="896" height="511" alt="image" src="https://github.com/user-attachments/assets/7dbd7785-1e5e-490d-80dc-42c4cde46e6b" />
+
+<img width="899" height="504" alt="image" src="https://github.com/user-attachments/assets/a9a6540d-57a2-4133-9a8a-01c2a1023297" />
+
+In the images can be seen 3 different paintings and if you approach the paintings it will be illuminating with yellow and by pressing the “E” it will show a description.
